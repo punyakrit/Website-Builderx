@@ -58,7 +58,7 @@
 
 
   ::-webkit-scrollbar{
-    width: 12px;
+    width: 13px;
   }
 
 ::-webkit-scrollbar-thumb{
@@ -105,3 +105,34 @@
   width:  45%;
   float: right;
   }
+
+
+
+
+  .down{
+    font-size: 43px;
+  
+  position: relative;
+  margin-left: 50px;
+  margin-top: 50px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
