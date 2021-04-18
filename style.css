@@ -9,6 +9,8 @@
     font-family: montserrat;
     
   }
+
+  
   nav{
     background: #3f3f3f;
     height: 80px;
@@ -103,20 +105,23 @@
 }
 
 .video{
-  
+  margin-top: 60px;
   width:  45%;
   float: right;
   }
 
+ .down{
+  margin-top: 50px;
+  margin-left: 50px;
+ }
 
 
-
-  .down{
+  .down h2{
     font-size: 43px;
   
   position: relative;
-  margin-left: 50px;
-  margin-top: 50px;
+  
+  
   }
 
 
