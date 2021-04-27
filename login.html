@@ -7,6 +7,7 @@
     <title>Login</title>
     <link rel="stylesheet" href="style-login.css">
     <link rel="shortcut icon" href="images/img.png" type="image/x-icon">
+    <script src="login.js"></script>
 </head>
 <body background="Images/bg.jpg" bgcolor="black">
   
@@ -14,15 +15,15 @@
         <h1>Login</h1>
         <div class="textbox">
           <i class="fas fa-user"></i>
-          <input type="text" placeholder="Username">
+          <input type="text" placeholder="Username" id="username">
         </div>
       
         <div class="textbox">
           <i class="fas fa-lock"></i>
-          <input type="password" placeholder="Password">
+          <input type="password" placeholder="Password" id="password">
         </div>
       
-        <button class="btn" ><a href=index.html>Sign In</a></button>
+        <button class="btn" onclick="validate()">Sign In</button>
         
       </div>
       
