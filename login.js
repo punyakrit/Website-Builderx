@@ -5,12 +5,12 @@ function validate()
     var password=document.getElementById("password").value;
     if(username=="admin" && password=="admin")
     {
-        alert("login successful");
+        alert("Login Successful");
         window.open('index.html')
         
     }
     else{
-        alert("login failed");
+        alert("Login Failed");
     }
      
 }
